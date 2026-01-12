@@ -1,13 +1,4 @@
-"""
-emotion_model.py
-Loads Hugging Face "joeddav/distilbert-base-uncased-go-emotions" text classifier and provides
-an adapter that converts simple facial heuristics into a short description which is then
-classified by the text model to determine an emotion label + confidence.
 
-Includes persona mapping and smooth fade animation state manager.
-
-Build by Tuba khan
-"""
 import time
 from typing import List, Tuple
 import numpy as np
@@ -507,3 +498,4 @@ if __name__ == "__main__":
         print('Loaded model (may download first time).')
     except Exception as e:
         print('Could not load transformer model:', e)
+
