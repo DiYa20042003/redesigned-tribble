@@ -1,12 +1,4 @@
-"""
-main.py
-AI Face Emotion & Persona Overlay
 
-Real-time webcam app that combines MediaPipe face detection, a Hugging Face emotion
-text classifier (adapter), and a neon cyberpunk HUD overlay.
-
-Build by Tuba khan
-"""
 import cv2
 import time
 import os
@@ -175,3 +167,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
