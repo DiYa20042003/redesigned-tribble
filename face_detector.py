@@ -1,10 +1,4 @@
-"""
-face_detector.py
-MediaPipe Face Mesh based face detector + landmarks.
-Returns bounding box and list of landmarks in pixel coordinates.
 
-Build by Tuba khan
-"""
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -93,3 +87,4 @@ if __name__ == "__main__":
             break
     cap.release()
     cv2.destroyAllWindows()
+
